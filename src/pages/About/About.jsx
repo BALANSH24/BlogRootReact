@@ -17,7 +17,7 @@ const About = () => {
       </section>
 
       <section class="why-read">
-        <h2>Why Read This Blog Website?</h2>
+        <h2>Why Read Roots Blog Website?</h2>
         <p>Learning and Education: Blogs are a fantastic resource for finding in-depth information and exploring new topics. Whether it's a step-by-step guide or analysis of current trends, blogs offer a way to expand your knowledge base in a format that's often more engaging than traditional textbooks.
           Entertainment: Many blogs are written with a lighthearted and entertaining tone. They might tell funny stories, share interesting anecdotes, or provide reviews of products or media. They're a great way to unwind and relax after a long day.
           Staying Informed: Blogs can be a great way to keep up with current events or industry news. Bloggers can provide unique perspectives and insights that you might not find in mainstream media.

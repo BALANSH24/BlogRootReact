@@ -1,7 +1,4 @@
-
-
 .container {
-    background-color: #0a0101;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -10,7 +7,7 @@
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: rgb(165, 118, 173);
+    color: #0E46A3;;
 }
 
 form {
@@ -21,13 +18,15 @@ form {
 label {
     margin-bottom: 5px;
     font-weight: bold;
+    margin: 5px;
+    
 }
 
 input[type="email"],
 input[type="password"] {
     padding: 10px;
     border: 1px solid #190404;
-    border-radius: 3px;
+    border-radius: 10px;
     margin-bottom: 15px;
 }
 
@@ -37,11 +36,11 @@ button[type="submit"]:hover {
     opacity: 0.8;
 }
 .signupin {
-    background-color: #946905;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    background-color: #0E46A3;
     
 }

@@ -1,23 +1,31 @@
 .box34{
-    background-color: rgb(221, 170, 105);
     padding: 10px;
     margin: 70px;
     border-radius: 10px;
+    background-color: #9AC8CD;
+    
 
 }
-input{
-    background-color: rgb(226, 155, 63);
-    /* color: aliceblue; */
-}
-textarea{
-    background-color: rgb(226, 155, 63);
-    /* color: aliceblue; */
-}
-button{
-    background-color: rgb(214, 153, 24);
+
+.post-btn{
     width: 70px;
     border-radius: 10px;
     height: 40px;
+    background-color: #0E46A3;
+    color: azure;
+    border-radius: 5px;
 
    
+}
+form-box{
+    text-align: left;
+}
+.blog-head{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
 }

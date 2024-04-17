@@ -24,7 +24,9 @@ const Home = () => {
     return (
         
         <div className='div45'>
-            <form action="http://localhost:5173/createpost"><button className="btn12">ADD BLOG</button></form>
+            <div className='fixed-div'> <form action="http://localhost:5173/createpost"><button className="btn12"></button></form>
+            </div>
+           
             
             
 

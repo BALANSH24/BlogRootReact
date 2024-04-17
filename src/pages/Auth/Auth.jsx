@@ -6,8 +6,9 @@ import "./Auth.css";
 const Auth = () => {
     const [LoginSelected, setLoginSelected] = useState(true);
   return (
-    <div className='box'>
+    <div className='box-login'>
         {LoginSelected?<Login/>:<SignUp/>}
+        
        
      <button onClick={()=>{setLoginSelected(true)}} className='signup'>Login</button>
      <button onClick={()=>{setLoginSelected(false)}} className='signup'>SignUp</button>

@@ -1,20 +1,22 @@
 .signup{
     justify-content: center;
     align-items: center;
-    background-color: rgb(185, 119, 43);
     border-radius: 10px;
     border: 0px;
     height: 40px;
     width:70px ;
-    color: aliceblue;
-    margin: 5px;
+    color:white ;
+   margin: 5px;
+    background-color: #0E46A3;
+   
     
     
 
 }
-.box{
+.box-login{
     text-align: center;
-    padding: 0.6em 3.2em;
+    
+    
    
     
     

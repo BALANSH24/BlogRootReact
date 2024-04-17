@@ -64,9 +64,10 @@ const Createpost = () => {
     };
 
     return (
-        <div >
-            <form onSubmit={handleSubmit} className='box34'>
-                <h1>Create Your Blog</h1>
+        <div className='box34' >
+            <h1 className='blog-head'>Create Your Blog</h1>
+            <form onSubmit={handleSubmit} className='form-box' >
+                
                 <label htmlFor="title">Title</label>
                 <input
                     type="text"
@@ -96,7 +97,7 @@ const Createpost = () => {
                 ></textarea>
                 <br />
                 {errorMessage && <div style={{ color: 'red' }}>{errorMessage}</div>}
-                <button type="submit">Post</button>
+                <button type="submit" className='post-btn'>Post</button>
             </form>
         </div>
     );

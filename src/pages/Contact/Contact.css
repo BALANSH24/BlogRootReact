@@ -11,7 +11,7 @@
   
   .contact-form {
     margin-bottom: 20px;
-    background-color: antiquewhite;
+    background-color: #E1F7F5;
     padding: 20px;
     border-radius: 10px;
     margin: 40px;
@@ -29,6 +29,7 @@
     border: 1px solid #ccc;
     margin-bottom: 10px;
     box-sizing: border-box;
+    border-radius: 10px;
   }
   
   .contact-form textarea {
@@ -36,7 +37,7 @@
   }
   
   .contact-form button {
-    background-color: #ca850e;
+    background-color:#0E46A3;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -44,7 +45,7 @@
   }
   
   .contact-form button:hover {
-    background-color: #e7a946;
+
   }
   
   .contact-info {
