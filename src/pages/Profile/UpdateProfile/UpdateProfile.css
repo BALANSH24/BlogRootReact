@@ -1,14 +1,18 @@
 .profile-div{
-    background-color: rgb(244, 204, 162);
+    background-color:#E1F7F5;
     padding: 20px;
     margin: 20px;
-    color: white;
+    color: #1E0342;
 }
 .form-div{
     margin: 10px;
+    
 
 }
 button{
     border: 0px;
-    color:  rgb(86, 73, 14);
+    color:  white;
+    background-color: #0E46A3;
+    height: 30px;
+    border-radius: 10px;
 }

@@ -9,16 +9,24 @@ const Profile=()=> {
     <div className='box'>
       <header className="profile-header">
     <div className="profile-pic">
-      <img src="images.jpeg" alt="Profile Picture"/> </div>
+      <img src="download.png" alt=""/> 
+      </div>
     <div className="profile-info">
       <h1>{user.username}</h1>
-      <label >bio:</label>
-       <p className="bio">{user.bio}</p> </div>
+      <div className='bio-profile'>
+        <label htmlFor="">Bio:</label>
+        <p className="bio">{user.bio}</p>
+         
+
+      </div>
+      <br />
+      <br />
+      <a href="http://localhost:5173/updateprofile" className='edit'>Edit Profile</a>
+    </div>
+      
+
   </header>
 
-  <section className="posts">
-    <h2>Posts</h2>
-    </section>
     </div>
   )
 }
